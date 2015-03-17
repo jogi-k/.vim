@@ -3,13 +3,13 @@
 
 ***
 
-**Homepage:** [the perfect vim configuration](http://timofurrer.github.com/.vim/)
+**Homepage:** [the perfect vim configuration](http://jogi-k.github.com/.vim/)
 
 ## How to use?
 
 ### Easy way
 
-Just download the file [setup script](https://raw.github.com/timofurrer/.vim/master/setup.sh) and execute it.
+Just download the file [setup script](https://raw.github.com/jogi-k/.vim/master/setup.sh) and execute it.
 
 ### Long way
 
@@ -20,7 +20,7 @@ First you have to install the `exuberant-ctags`, `cscope`, `pyflakes`, `flake8` 
 
 When you have done this you have to clone this repository with the following command:
 
-    git clone https://github.com/timofurrer/.vim.git ~/.vim
+    git clone https://github.com/jogi-k/.vim.git ~/.vim
 
 If this worked correctly you should have now this repository in your home at: `~/.vim`.
 So lets change in this directory:
@@ -51,7 +51,7 @@ The YouCompleteMe module needs some installation as well:
 ```bash
 mv ~/.vim ~/.vim.old
 mv ~/.vimrc ~/.vimrc.old
-git clone https://github.com/timofurrer/.vim.git ~/.vim
+git clone https://github.com/jogi-k/.vim.git ~/.vim
 cd ~/.vim
 git submodule init
 git submodule update
