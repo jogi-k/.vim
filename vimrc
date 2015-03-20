@@ -9,7 +9,7 @@ set nocompatible
 filetype off
 
 " Do you want to use the colorscheme solarized? Thus, set to 1 else to 0
-let use_cs_solarized = 1
+let use_cs_solarized = 0
 
 " -----------------
 " ---- Plugins ----
@@ -86,8 +86,8 @@ let mapleader=","
 
 " tab settings
 set expandtab
-set shiftwidth=2
-set softtabstop=2
+set shiftwidth=4
+set softtabstop=4
 
 " indenting
 set cindent
@@ -178,6 +178,9 @@ if use_cs_solarized == 1
 endif
 
 "colorscheme pojoaque
+
+" Jogi, always dark background
+set background=dark
 
 
 " ----------------------
